@@ -1,0 +1,15 @@
+.press {
+    margin-top: 192px;
+    &__items {
+        margin-top: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 115px;
+        img {
+            max-width: 170px;
+        }
+    }
+
+    
+}

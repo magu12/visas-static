@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-MediumItalic.eot');
+    src: local('Libre Franklin Medium Italic'), local('LibreFranklin-MediumItalic'),
+        url('LibreFranklin-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-MediumItalic.woff2') format('woff2'),
+        url('LibreFranklin-MediumItalic.woff') format('woff'),
+        url('LibreFranklin-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Italic.eot');
+    src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'),
+        url('LibreFranklin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Italic.woff2') format('woff2'),
+        url('LibreFranklin-Italic.woff') format('woff'),
+        url('LibreFranklin-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-SemiBold.eot');
+    src: local('LibreFranklin-SemiBold'),
+        url('LibreFranklin-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-SemiBold.woff2') format('woff2'),
+        url('LibreFranklin-SemiBold.woff') format('woff'),
+        url('LibreFranklin-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-BlackItalic.eot');
+    src: local('Libre Franklin Black Italic'), local('LibreFranklin-BlackItalic'),
+        url('LibreFranklin-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-BlackItalic.woff2') format('woff2'),
+        url('LibreFranklin-BlackItalic.woff') format('woff'),
+        url('LibreFranklin-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Black.eot');
+    src: local('LibreFranklin-Black'),
+        url('LibreFranklin-Black.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Black.woff2') format('woff2'),
+        url('LibreFranklin-Black.woff') format('woff'),
+        url('LibreFranklin-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Bold.eot');
+    src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'),
+        url('LibreFranklin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Bold.woff2') format('woff2'),
+        url('LibreFranklin-Bold.woff') format('woff'),
+        url('LibreFranklin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-ExtraLightItalic.eot');
+    src: local('Libre Franklin ExtraLight Italic'), local('LibreFranklin-ExtraLightItalic'),
+        url('LibreFranklin-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-ExtraLightItalic.woff2') format('woff2'),
+        url('LibreFranklin-ExtraLightItalic.woff') format('woff'),
+        url('LibreFranklin-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-ExtraLight.eot');
+    src: local('LibreFranklin-ExtraLight'),
+        url('LibreFranklin-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-ExtraLight.woff2') format('woff2'),
+        url('LibreFranklin-ExtraLight.woff') format('woff'),
+        url('LibreFranklin-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-ExtraBoldItalic.eot');
+    src: local('Libre Franklin ExtraBold Italic'), local('LibreFranklin-ExtraBoldItalic'),
+        url('LibreFranklin-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-ExtraBoldItalic.woff2') format('woff2'),
+        url('LibreFranklin-ExtraBoldItalic.woff') format('woff'),
+        url('LibreFranklin-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-SemiBoldItalic.eot');
+    src: local('Libre Franklin SemiBold Italic'), local('LibreFranklin-SemiBoldItalic'),
+        url('LibreFranklin-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-SemiBoldItalic.woff2') format('woff2'),
+        url('LibreFranklin-SemiBoldItalic.woff') format('woff'),
+        url('LibreFranklin-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Regular.eot');
+    src: local('LibreFranklin-Regular'),
+        url('LibreFranklin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Regular.woff2') format('woff2'),
+        url('LibreFranklin-Regular.woff') format('woff'),
+        url('LibreFranklin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Light.eot');
+    src: local('LibreFranklin-Light'),
+        url('LibreFranklin-Light.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Light.woff2') format('woff2'),
+        url('LibreFranklin-Light.woff') format('woff'),
+        url('LibreFranklin-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-BoldItalic.eot');
+    src: local('Libre Franklin Bold Italic'), local('LibreFranklin-BoldItalic'),
+        url('LibreFranklin-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-BoldItalic.woff2') format('woff2'),
+        url('LibreFranklin-BoldItalic.woff') format('woff'),
+        url('LibreFranklin-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-ThinItalic.eot');
+    src: local('Libre Franklin Thin Italic'), local('LibreFranklin-ThinItalic'),
+        url('LibreFranklin-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-ThinItalic.woff2') format('woff2'),
+        url('LibreFranklin-ThinItalic.woff') format('woff'),
+        url('LibreFranklin-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Thin.eot');
+    src: local('LibreFranklin-Thin'),
+        url('LibreFranklin-Thin.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Thin.woff2') format('woff2'),
+        url('LibreFranklin-Thin.woff') format('woff'),
+        url('LibreFranklin-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Medium.eot');
+    src: local('LibreFranklin-Medium'),
+        url('LibreFranklin-Medium.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Medium.woff2') format('woff2'),
+        url('LibreFranklin-Medium.woff') format('woff'),
+        url('LibreFranklin-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-ExtraBold.eot');
+    src: local('LibreFranklin-ExtraBold'),
+        url('LibreFranklin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-ExtraBold.woff2') format('woff2'),
+        url('LibreFranklin-ExtraBold.woff') format('woff'),
+        url('LibreFranklin-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-LightItalic.eot');
+    src: local('Libre Franklin Light Italic'), local('LibreFranklin-LightItalic'),
+        url('LibreFranklin-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-LightItalic.woff2') format('woff2'),
+        url('LibreFranklin-LightItalic.woff') format('woff'),
+        url('LibreFranklin-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+

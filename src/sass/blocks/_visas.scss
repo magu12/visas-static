@@ -1,0 +1,84 @@
+.visas {
+    position: relative;
+    margin-top: 190px;
+    &__tabs {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__tab {
+        padding: 16px;
+        width: 243.2px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(6px);
+        font-style: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        transition: all .3s ease;
+        cursor: pointer;
+
+        &.active {
+            background: #0080FF;
+        }
+
+        &:hover {
+            background: rgba(#0080FF, 0.7);
+        }
+    }
+
+    &__items {
+        margin-top: 24px;
+        position: relative;
+        width: 100%;
+        height: 490px;
+    }
+
+    &__item {
+        position: absolute;
+        padding: 48px 108px;
+        padding-bottom: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(24px);
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 32px;
+            max-width: 100%;
+            
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    &__descr {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ACBDCA;
+        text-align: center;
+    }
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        svg {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

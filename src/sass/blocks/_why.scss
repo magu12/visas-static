@@ -1,0 +1,59 @@
+.why {
+    margin-top: 192px;
+}
+
+.table {
+    margin-top: 80px;
+    width: 100%;
+
+    .row {
+        display: flex;
+    }
+    &__header {
+        .col {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:last-child {
+                align-items: flex-end;
+
+            }
+        }
+    }
+    .rows {
+        margin-top: 10px;
+        .row {
+            &:nth-child(odd) {
+                background: #0A1720;
+            }
+        }
+
+        .col {
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            text-align: center;
+
+            &:first-child {
+                text-align: left;
+            }
+        }
+    }
+
+    .col {
+        width: 248.67px;
+        padding: 16px 24px;
+
+        svg {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &:first-child {
+            width: 550px;
+        }
+    }
+}
